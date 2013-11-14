@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Tri
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Testar Git push");
 		}
 	}
 }
