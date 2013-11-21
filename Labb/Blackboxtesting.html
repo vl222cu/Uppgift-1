@@ -7,7 +7,7 @@
 	<META NAME="AUTHOR" CONTENT="Vivi Lam">
 	<META NAME="CREATED" CONTENT="20131119;22202293">
 	<META NAME="CHANGEDBY" CONTENT="Vivi Lam">
-	<META NAME="CHANGED" CONTENT="20131120;242432">
+	<META NAME="CHANGED" CONTENT="20131122;81638">
 	<STYLE TYPE="text/css">
 	<!--
 		TD P.western { font-family: "Verdana", sans-serif; font-size: 10pt }
@@ -17,7 +17,7 @@
 <BODY LANG="sv-SE" DIR="LTR">
 <P><BR><BR>
 </P>
-<TABLE WIDTH=80% BORDER=1 BORDERCOLOR="#b2b2b2" CELLPADDING=4 CELLSPACING=3>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#b2b2b2" CELLPADDING=4 CELLSPACING=3>
 	<COL WIDTH=61*>
 	<COL WIDTH=67*>
 	<COL WIDTH=64*>
@@ -117,7 +117,9 @@
 		<TD WIDTH=25% BGCOLOR="#eeeeee">
 			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Ohanterat
 			undantag: System.FormatException: Indatastr&auml;ngen hade ett
-			felaktigt format.</FONT></FONT></P>
+			felaktigt format. <BR>Vid System.Number.ParseDouble(String value,
+			NumberStyles options, NumberFormatInfo numfmt) vid
+			System.Double.Parse(String s) vid Program.Main(String[] args)</FONT></FONT></P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
@@ -173,28 +175,106 @@
 			har inga lika sidor</FONT></FONT></P>
 		</TD>
 	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=24% BGCOLOR="#eeeeee" SDVAL="8" SDNUM="1053;">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>8</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=26% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Testar
+			om programmet ger ett felmeddelande med nollv&auml;rden</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>0,0
+			0,0 0,0</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Triangeln
+			&auml;r liksidig</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=24% SDVAL="9" SDNUM="1053;">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>9</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=26%>
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Testar
+			om programmet ger ett felmeddelande med fel indataformat i
+			bokst&auml;ver</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25%>
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>fem
+			fem tio</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25%>
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Ohanterat
+			undantag: System.FormatException: Indatastr&auml;ngen hade ett
+			felaktigt format. <BR>Vid System.Number.ParseDouble(String value,
+			NumberStyles options, NumberFormatInfo numfmt) vid
+			System.Double.Parse(String s) vid Program.Main(String[] args)</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=24% BGCOLOR="#eeeeee" SDVAL="10" SDNUM="1053;">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>10</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=26% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Testar
+			om programmet ger ett felmeddelande med fel indataformat d&auml;r
+			v&auml;rdet p&aring; en sida saknas och utan decimaler</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>5
+			5</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#eeeeee">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Triangeln
+			&auml;r liksidig</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=24% BGCOLOR="#ffffff" SDVAL="11" SDNUM="1053;">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>11</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=26% BGCOLOR="#ffffff">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Testar
+			om programmet ger ett felmeddelande med fel indataformat d&auml;r
+			v&auml;rdet p&aring; en sida saknas </FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#ffffff">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>5,0
+			5,0</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#ffffff">
+			<P CLASS="western"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Ohanterat
+			undantag: System.FormatException: Indatastr&auml;ngen hade ett
+			felaktigt format. <BR>Vid System.Number.ParseDouble(String value,
+			NumberStyles options, NumberFormatInfo numfmt) vid
+			System.Double.Parse(String s) vid Program.Main(String[] args)</FONT></FONT></P>
+		</TD>
+	</TR>
 </TABLE>
 <P><BR><BR>
 </P>
-<TABLE WIDTH=80% BORDER=1 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid">
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid">
 	<COL WIDTH=85*>
 	<COL WIDTH=85*>
 	<COL WIDTH=85*>
 	<TR>
 		<TD COLSPAN=3 WIDTH=100% VALIGN=TOP BGCOLOR="#333333">
-			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT FACE="Verdana, sans-serif"><FONT SIZE=3><B><SPAN STYLE="text-decoration: none">Testrapport</SPAN></B></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT FACE="Verdana, sans-serif"><FONT SIZE=3><B>Testrapport</B></FONT></FONT></FONT></P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
 		<TD WIDTH=33% BGCOLOR="#999999">
-			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT FACE="Verdana, sans-serif"><FONT SIZE=3><B><SPAN STYLE="text-decoration: none">Testfall
-			ID</SPAN></B></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT FACE="Verdana, sans-serif"><FONT SIZE=3><B>Testfall
+			ID</B></FONT></FONT></FONT></P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#999999">
-			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT SIZE=3><B><SPAN STYLE="text-decoration: none">Pass/Fail</SPAN></B></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT SIZE=3><B>Pass/Fail</B></FONT></FONT></P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#999999">
-			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT SIZE=3><B><SPAN STYLE="text-decoration: none">Beskrivning</SPAN></B></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="text-decoration: none"><FONT COLOR="#ffffff"><FONT SIZE=3><B>Beskrivning</B></FONT></FONT></P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
@@ -205,8 +285,7 @@
 			<P CLASS="western">Pass</P>
 		</TD>
 		<TD WIDTH=33%>
-			<P CLASS="western"><BR>
-			</P>
+			<P CLASS="western">Gav f&ouml;rv&auml;ntad output</P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
@@ -217,8 +296,7 @@
 			<P CLASS="western">Pass</P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#eeeeee">
-			<P CLASS="western"><BR>
-			</P>
+			<P CLASS="western">Gav f&ouml;rv&auml;ntad output</P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
@@ -229,8 +307,7 @@
 			<P CLASS="western">Pass</P>
 		</TD>
 		<TD WIDTH=33%>
-			<P CLASS="western"><BR>
-			</P>
+			<P CLASS="western">Gav f&ouml;rv&auml;ntad output</P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
@@ -238,7 +315,7 @@
 			<P CLASS="western">4</P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#eeeeee">
-			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B><SPAN STYLE="text-decoration: none">Fail</SPAN></B></FONT></P>
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail</B></FONT></P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#eeeeee">
 			<P CLASS="western">F&ouml;r h&ouml;gt v&auml;rde d&aring; det
@@ -250,7 +327,7 @@
 			<P CLASS="western">5</P>
 		</TD>
 		<TD WIDTH=33%>
-			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B><SPAN STYLE="text-decoration: none">Fail</SPAN></B></FONT></P>
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail</B></FONT></P>
 		</TD>
 		<TD WIDTH=33%>
 			<P CLASS="western">Validering av inmatning saknas d&aring;
@@ -262,10 +339,10 @@
 			<P CLASS="western">6</P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#eeeeee">
-			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B><SPAN STYLE="text-decoration: none">Fail</SPAN></B></FONT></P>
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail</B></FONT></P>
 		</TD>
 		<TD WIDTH=33% BGCOLOR="#eeeeee">
-			<P CLASS="western">Validering av v&auml;rden saknas d&aring;
+			<P CLASS="western">Validering av giltiga v&auml;rden saknas d&aring;
 			programmet g&ouml;r en ber&auml;kning trots negativa v&auml;rden</P>
 		</TD>
 	</TR>
@@ -274,14 +351,67 @@
 			<P CLASS="western">7</P>
 		</TD>
 		<TD WIDTH=33%>
-			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B><SPAN STYLE="text-decoration: none">Fail
-			</SPAN></B></FONT>
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail
+			</B></FONT>
 			</P>
 		</TD>
 		<TD WIDTH=33%>
-			<P CLASS="western">Validering av v&auml;rden saknas d&aring;
+			<P CLASS="western">Validering av giltiga v&auml;rden saknas d&aring;
 			programmet g&ouml;r en ber&auml;kning trots negativa och positiva
 			v&auml;rden</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=33% BGCOLOR="#eeeeee" SDVAL="8" SDNUM="1053;">
+			<P CLASS="western">8</P>
+		</TD>
+		<TD WIDTH=33% BGCOLOR="#eeeeee">
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail
+			</B></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=33% BGCOLOR="#eeeeee">
+			<P CLASS="western">Validering av giltiga v&auml;rden saknas d&aring;
+			programmet g&ouml;r en ber&auml;kning trots nollv&auml;rden</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=33% SDVAL="9" SDNUM="1053;">
+			<P CLASS="western">9</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P CLASS="western">Pass</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P CLASS="western">Gav f&ouml;rv&auml;ntad output</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=33% BGCOLOR="#eeeeee" SDVAL="10" SDNUM="1053;">
+			<P CLASS="western">10</P>
+		</TD>
+		<TD WIDTH=33% BGCOLOR="#eeeeee">
+			<P CLASS="western" STYLE="text-decoration: none"><FONT COLOR="#c5000b"><B>Fail
+			</B></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=33% BGCOLOR="#eeeeee">
+			<P CLASS="western">Validering av indata utan decimaler saknas d&aring;
+			programmet g&ouml;r en ber&auml;kning trots att v&auml;rdet p&aring;
+			en sida saknas 
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=33% SDVAL="11" SDNUM="1053;">
+			<P CLASS="western">11</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P CLASS="western" STYLE="font-weight: normal; text-decoration: none">
+			<FONT COLOR="#000000">Pass</FONT></P>
+		</TD>
+		<TD WIDTH=33%>
+			<P CLASS="western">Gav f&ouml;rv&auml;ntad output</P>
 		</TD>
 	</TR>
 </TABLE>
