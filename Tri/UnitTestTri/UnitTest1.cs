@@ -7,7 +7,6 @@ namespace UnitTestTri
 	public class TriangleUnitTest
 	{
 		// Testar om triangeln är likbent
-		// [PASSED]
 		[TestMethod]
 		public void isIsoscelesTest()
 		{
@@ -16,7 +15,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en liksidig triangel istället för likbent
-		// [PASSED]
 		[TestMethod]
 		public void isIsoscelesWhenFalseInputTest()
 		{
@@ -25,7 +23,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en triangel med olika sidor istället för likbent
-		// [PASSED]
 		[TestMethod]
 		public void isIsoscelesWhenFalseInputTest2()
 		{
@@ -34,7 +31,6 @@ namespace UnitTestTri
 		}
 
 		// Testar om triangeln är liksidig 
-		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
 		[TestMethod]
 		public void isEquilateralTest()
 		{
@@ -43,7 +39,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en triangel med tre olika sidor istället för liksidig 
-		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
 		[TestMethod]
 		public void isEquilateralWhenFalseInputTest()
 		{
@@ -52,7 +47,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en likbent triangel istället för liksidig
-		// [PASSED]
 		[TestMethod]
 		public void isEquilateralWhenFalseInputTest2()
 		{
@@ -61,7 +55,6 @@ namespace UnitTestTri
 		}
 
 		// Testar om triangeln har olika sidor
-		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
 		[TestMethod]
 		public void isScaleneTest()
 		{
@@ -70,7 +63,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en liksidig triangel istället för olika sidor 
-		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
 		[TestMethod]
 		public void isScaleneTestWhenFalseInputTest()
 		{
@@ -79,7 +71,6 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en likbent triangel istället för olika sidor 
-		// [PASSED]
 		[TestMethod]
 		public void isScaleneTestWhenFalseInputTest2()
 		{
@@ -96,7 +87,7 @@ namespace UnitTestTri
 			Triangle tri = new Triangle(0.0, 0.0, 0.0);
 		}
 
-		// Testar om beräkning kan göras trots nollvärden
+		// Testar om beräkning kan göras trots ogiltiga värden
 		[TestMethod]
 		public void isIsoscelesTestForNullValueInput()
 		{
