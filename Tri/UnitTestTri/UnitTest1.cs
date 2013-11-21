@@ -7,7 +7,10 @@ namespace UnitTestTri
 	public class TriangleUnitTest
 	{
 		// Testar om triangeln är likbent
+<<<<<<< HEAD
 		// [PASSED]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isIsoscelesTest()
 		{
@@ -16,7 +19,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en liksidig triangel istället för likbent
+<<<<<<< HEAD
 		// [PASSED]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isIsoscelesWhenFalseInputTest()
 		{
@@ -25,7 +31,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en triangel med olika sidor istället för likbent
+<<<<<<< HEAD
 		// [PASSED]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isIsoscelesWhenFalseInputTest2()
 		{
@@ -34,7 +43,10 @@ namespace UnitTestTri
 		}
 
 		// Testar om triangeln är liksidig 
+<<<<<<< HEAD
 		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isEquilateralTest()
 		{
@@ -43,7 +55,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en triangel med tre olika sidor istället för liksidig 
+<<<<<<< HEAD
 		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isEquilateralWhenFalseInputTest()
 		{
@@ -52,7 +67,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en likbent triangel istället för liksidig
+<<<<<<< HEAD
 		// [PASSED]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isEquilateralWhenFalseInputTest2()
 		{
@@ -61,7 +79,10 @@ namespace UnitTestTri
 		}
 
 		// Testar om triangeln har olika sidor
+<<<<<<< HEAD
 		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isScaleneTest()
 		{
@@ -70,7 +91,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en liksidig triangel istället för olika sidor 
+<<<<<<< HEAD
 		// [FAILED TEST] då ska ge [TRUE] men gav [FALSE]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isScaleneTestWhenFalseInputTest()
 		{
@@ -79,7 +103,10 @@ namespace UnitTestTri
 		}
 
 		// Testar värden som ger en likbent triangel istället för olika sidor 
+<<<<<<< HEAD
 		// [PASSED]
+=======
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isScaleneTestWhenFalseInputTest2()
 		{
@@ -96,7 +123,11 @@ namespace UnitTestTri
 			Triangle tri = new Triangle(0.0, 0.0, 0.0);
 		}
 
+<<<<<<< HEAD
 		// Testar om beräkning kan göras trots nollvärden
+=======
+		// Testar om beräkning kan göras trots ogiltiga värden
+>>>>>>> 2965f6e562e12bdd4c465e39adba9af8990929af
 		[TestMethod]
 		public void isIsoscelesTestForNullValueInput()
 		{
