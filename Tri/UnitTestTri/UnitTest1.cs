@@ -139,9 +139,9 @@ namespace UnitTestTri
 		[TestMethod]
 		public void IsEquilateralPointsTest()
 		{
-			Point a = new Point(-3, 2);
-			Point b = new Point(0, -3);
-			Point c = new Point(3, 2);
+			Point a = new Point(0, 3);
+			Point b = new Point(-3, -2);
+			Point c = new Point(3, -2);
 
 			Triangle triPointsIsEquilateral = new Triangle(a, b, c);
 
