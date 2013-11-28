@@ -25,7 +25,7 @@ public class Triangle {
   public Triangle(double[] s) {
 	if (s == null || s.Length != 3)
 	{
-		throw new ArgumentNullException("wrong input value and sides need to be 3");
+		throw new ArgumentNullException("wrong input value or/and sides need to be 3");
 	}
     sides = new double[s.Length];
     for(int i=0;i<s.Length;i++)
