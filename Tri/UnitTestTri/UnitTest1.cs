@@ -34,9 +34,9 @@ namespace UnitTestTri
 		[TestMethod]
 		public void IsIsoscelesPointsTest()
 		{
-			Point a = new Point(1, 3);
-			Point b = new Point(-1, -1);
-			Point c = new Point(3, -1);
+			Point a = new Point(0, 0);
+			Point b = new Point(2, 2);
+			Point c = new Point(4, 0);
 
 			Triangle triPointsIsIsosceles = new Triangle(a, b, c);
 
@@ -47,7 +47,7 @@ namespace UnitTestTri
 		[TestMethod]
 		public void IsIsoscelesArrayPointsTest()
 		{
-			Point[] array = { new Point(0, 3), new Point(3, 0), new Point(-3, -2) };
+			Point[] array = { new Point(0, 0), new Point(2, 2), new Point(4, 0) };
 			Triangle triArrayPointsIsIsosceles = new Triangle(array);
 
 			Assert.IsTrue(triArrayPointsIsIsosceles.isIsosceles());
