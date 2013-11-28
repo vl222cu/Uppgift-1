@@ -17,12 +17,16 @@ public class Triangle {
   public Triangle(double a, double b, double c) {
 	if (a <= 0.0 || b <= 0.0 || c <= 0.0)
 	{
-		throw new ArgumentNullException("The inputs need to be larger than 0");
+		throw new ArgumentNullException("The inputs need to be larger than 0.0");
 	}
     sides = new double[] { a, b, c };
   } 
 
   public Triangle(double[] s) {
+	if (s == null || s.Length != 3)
+	{
+		throw new ArgumentNullException("wrong input value and sides need to be 3");
+	}
     sides = new double[s.Length];
     for(int i=0;i<s.Length;i++)
       sides[i]=s[i];
